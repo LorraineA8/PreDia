@@ -168,31 +168,114 @@ The **same UI** is **compiled to static files** and **shipped inside the APK**. 
 
 ## Business Model Canvas
 
+## Market Validation and Go-To-Market Strategy
 
+### Market Validation
+
+Field interviews were conducted on **27 February 2026** at:
+
+- Mukono Church of Uganda Hospital
+- Mukono General Hospital
+
+Participants included:
+
+- Dr. Eseza Nabaagala
+- Dr. Christine Kisaakye
+- Dr. Tebu Kenneth
+- Dr. Ssentongo Ali
+- Nurse Alice
+
+The interviews revealed:
+
+- Frequent occurrence of late-stage diabetes cases.
+- Strong demand for affordable community screening tools.
+- Positive reception towards an offline, explainable screening application.
+
+### Go-To-Market Strategy
+
+The proposed adoption strategy includes:
+
+- Partnerships with the Ministry of Health, District Health Offices, and NGOs.
+- Hands-on training workshops for Village Health Teams.
+- Direct APK deployment and demonstrations.
+- Community awareness campaigns and district-level health meetings.
+
+The proposed pilot deployment location is **Mukono District, Uganda**.
 
 The canvas describes how the product connects **segments**, **value**, **revenue**, and **costs**.
 
 ### Customer segments
 
-- **Village Health Teams and community health workers** — community screening, limited equipment, need speed and clarity.  
-- **Health facilities** — nurses, clinical officers, physicians who require **standardised** workflows, dashboards, and auditable exports.  
-- **Programme managers and MOH / NGO partners** — oversight of NCD programmes; need aggregate ready data and transparent methodology.  
-- **Screened adults** — indirect beneficiaries of clearer feedback and earlier referral conversations.
+- **Village Health Teams and community health workers** — community screening, limited equipment, need speed and clarity. Approximately **25,000 VHTs** across Uganda are potential users.
+
+- **Health facilities** — nurses, clinical officers, physicians who require **standardised** workflows, dashboards, and auditable exports. More than **5,000 health facilities** nationwide can benefit from the platform.
+
+- **Programme managers and MOH / NGO partners** — oversight of NCD programmes; need aggregate-ready data and transparent methodology. Target users include **district health offices, NGOs, and Ministry of Health programmes**.
+
+- **Screened adults** — indirect beneficiaries of clearer feedback and earlier referral conversations, particularly adults aged **21–79 years** in rural and semi-urban communities.
 
 ### Value proposition
 
-- Fast T2DM **risk stratification** using **simple inputs**.  
-- **Explainable** outputs (SHAP) and **hybrid clinical rules** for safety and credibility.  
-- **Bilingual** access and **offline capable** client (APK) for rural connectivity.  
-- **Exports** for accountability and research (CSV/PDF).
+- Fast T2DM **risk stratification** using **simple inputs** collected during community screening.
+- **Explainable** outputs (SHAP) and **hybrid clinical rules** for safety, transparency, and credibility.
+- **Bilingual** access (English and Luganda) to improve accessibility among frontline health workers.
+- **Offline-capable Android deployment** suitable for low-connectivity rural environments.
+- **PDF and CSV exports** for accountability, reporting, and research purposes.
+- **Referral recommendations and lifestyle guidance** to support preventive healthcare interventions.
 
 ### Revenue streams (strategic options)
 
-Examples analysed in the canvas include **licence or subscription** fees for institutions, **grant or programme funded** deployments, **training and support** packages, and optional **analytics** services. These are **planning constructs** for sustainability discussions, not statements of current commercial terms.
+The project explored several potential sustainability models:
+
+1. **Licence and Subscription Fees**
+   - Annual access fee for health facilities, districts, and NGO partners.
+   - Indicative pricing: **UGX 500,000 per facility per year**.
+
+2. **Programme-Funded Deployments**
+   - NGO, donor, or Ministry of Health funded implementations.
+   - Example deployment package: **UGX 15 million for 12 months across 5 districts**.
+
+3. **Training and Support Services**
+   - Health worker onboarding, technical support, and refresher training.
+   - Indicative package: **UGX 200,000 per month for 50 users**.
+
+4. **Data and Analytics Services**
+   - Optional reporting and analytical insights for programme managers, researchers, and policymakers.
+
+These options are proposed sustainability models and do not represent current commercial pricing.
 
 ### Cost structure (strategic overview)
 
-Typical cost buckets include **cloud or server infrastructure** (for any online backend), **software maintenance and model retraining**, **data and translation services**, **field training and travel**, **partnerships and compliance**, and **contingency**. The student implementation prioritises **open source tooling** and **phased rollout** to control expense.
+Typical cost categories include:
+
+#### Technology and Infrastructure
+- Cloud hosting
+- Databases
+- Domains
+- Security services
+
+Estimated cost:
+**UGX 200,000–500,000 per month**
+
+#### Development and Maintenance
+- Software updates
+- Bug fixes
+- Model retraining
+- Technical support
+
+Estimated cost:
+**UGX 1,000,000–2,500,000 per month**
+
+#### Additional Costs
+- Data expenses
+- Translation and localization services
+- Training and support delivery
+- Marketing and partnerships
+- Administrative expenses
+- Contingency allocation
+
+Estimated total operational cost:
+**Approximately UGX 2.79 million per month**
 
 ---
 
@@ -232,6 +315,25 @@ PreDia/
 For **backend**, **notebooks**, and **environment variables** for the full web stack, clone [T2DM_Risk_Prediction_Tool](https://github.com/RUGOGAMUNOELA/T2DM_Risk_Prediction_Tool) and follow `docs/RUN_INSTRUCTIONS.md` and `docs/RUN_REACT_APP.md`.
 
 ---
+
+## Social Impact and SDG Alignment
+
+PreDia contributes to earlier identification of individuals at risk of Type 2 Diabetes Mellitus and supports preventive healthcare interventions.
+
+Expected benefits include:
+
+- Reduced diabetes-related complications.
+- Improved referral and follow-up rates.
+- Standardized screening practices.
+- Better community awareness of diabetes risk factors.
+
+The project aligns with:
+
+- **SDG 3:** Good Health and Well-being
+- **SDG 9:** Industry, Innovation and Infrastructure
+- **SDG 10:** Reduced Inequalities
+
+Early detection and intervention have the potential to contribute significant long-term healthcare cost savings while improving quality of life for vulnerable populations.
 
 ## Licence, attribution, and disclaimer
 
