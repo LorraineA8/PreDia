@@ -38,11 +38,24 @@ The tool targets **Village Health Teams (VHTs)**, peripheral clinics, and progra
 
 ---
 
+### Why PreDia Matters
+
+PreDia addresses four major barriers to early diabetes detection in rural Uganda:
+
+* **High screening costs** that are unaffordable for many rural households.
+* **Long distances to health facilities**, often requiring expensive transportation.
+* **Limited awareness of diabetes risk factors and symptoms.**
+* **Lack of simple community-level screening tools** for Village Health Teams (VHTs).
+
+By providing a bilingual, explainable, and fully offline Android application, PreDia enables frontline health workers to conduct rapid risk assessments during community outreach activities.
+
+
+---
+
 ## Problem statement
 
+> *"Uganda faces a growing Type 2 Diabetes Mellitus (T2DM) crisis, with approximately 1.69 million adults currently living with the condition. An estimated 605,000 cases remain undiagnosed, particularly in rural communities where access to screening services is limited. Without intervention, rural diabetes cases could rise to 1.2 million, while national cases may reach 7.5 million by 2050. Late diagnosis often results in severe complications such as blindness, kidney failure, heart attacks, and amputations. Village Health Teams (VHTs) and community health workers lack affordable, accessible screening tools that can be used during routine community visits. This creates an urgent need for a low-cost, explainable, and offline-capable clinical risk prediction tool to support early identification and referral of individuals at risk of Type 2 Diabetes Mellitus."*
 
-
-> *"Over 369,000 adults live with Diabetes in Uganda. That is (1 in every 14 people), 225,900 of these cases are undiagnosed. 160,000 of these come from villages with a threatening potential of the total diabetes number rising to 1.2 million by 2050. Basing on the fact that more than 37,500,000 people of Uganda’s population lives in rural areas. Village Health Teams have no easy way to find people at risk early therefore when diabetes is found late, people already have eye damage, kidney failure of foot ulcers. This is a big problem that we can solve with a T2DM Clinical Risk Predictive Tool."*
 
 ---
 
